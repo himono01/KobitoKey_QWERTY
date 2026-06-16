@@ -70,8 +70,8 @@
             bindings = <
 &trans     &trans  &trans    &trans    &trans  &kp RC(PG_UP)  &mkp MB1      &mkp MB3  &mkp MB2       &kp RC(PG_DN)
 &trans     &trans  &trans    &trans    &trans  &kp RC(RS(T))  &kp RA(LEFT)  &trans    &kp RA(RIGHT)  &trans
-&trans     &trans  &trans    &trans    &trans  &trans         &trans        &trans    &trans         &trans
-&kp LSHFT  &trans  &kp LCMD  &kp LALT  &to 0   &trans         &trans        &trans    &to 0          &kp RALT
+&trans     &trans  &trans    &trans    &trans  &kp RC(W)      &trans        &trans    &trans         &trans
+&kp LSHFT  &trans  &kp LCMD  &kp LALT  &to 0   &trans         &kp F5        &trans    &to 0          &kp RALT
             >;
         };
     };
