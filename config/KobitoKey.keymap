@@ -51,27 +51,27 @@
 &trans      &trans    &kp UP_ARROW    &trans     &trans  &kp LEFT_BRACKET  &kp N7  &kp N8        &kp N9        &kp MINUS
 &kp LCTRL   &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans            &kp N4  &kp N5        &kp NUMBER_6  &kp PLUS
 &kp LSHIFT  &trans    &trans          &trans     &trans  &kp N0            &kp N1  &kp N2        &kp N3        &trans
-&trans      &trans    &trans          &trans     &trans  &trans            &trans  &kp NUMBER_0  &trans        &trans
+&trans      &trans    &trans          &trans     &trans  &kp DELETE        &trans  &kp NUMBER_0  &trans        &trans
             >;
         };
 
         layer2 {
             label = "FUNCTION";
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
-&trans        &trans        &trans        &trans        &bt BT_CLR      &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
-&trans        &trans        &trans        &trans        &bt BT_CLR_ALL  &kp F11  &kp F12  &trans  &trans  &trans
-&trans        &trans        &trans        &trans        &trans          &kp DEL  &trans   &trans  &trans  &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
+&trans        &trans        &trans        &trans        &bt BT_CLR    &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
+&trans        &trans        &trans        &trans        &trans        &kp F11  &kp F12  &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans        &trans   &trans   &trans  &trans  &trans
             >;
         };
 
         layer3 {
             label = "MOUSE";
             bindings = <
-&trans     &trans  &trans    &trans    &trans  &kp RC(PG_UP)  &mkp MB1      &mkp MB3  &mkp MB2       &kp RC(PG_DN)
-&trans     &trans  &trans    &trans    &trans  &kp RC(RS(T))  &kp RA(LEFT)  &trans    &kp RA(RIGHT)  &trans
-&trans     &trans  &trans    &trans    &trans  &kp RC(W)      &trans        &trans    &trans         &trans
-&kp LSHFT  &trans  &kp LCMD  &kp LALT  &to 0   &trans         &kp F5        &trans    &to 0          &kp RALT
+&trans     &trans  &trans  &trans  &trans  &kp RC(PG_UP)  &mkp MB1      &mkp MB3  &mkp MB2       &kp RC(PG_DN)
+&trans     &trans  &trans  &trans  &trans  &kp RC(RS(T))  &kp RA(LEFT)  &trans    &kp RA(RIGHT)  &trans
+&trans     &trans  &trans  &trans  &trans  &kp RC(W)      &trans        &trans    &trans         &trans
+&kp LSHFT  &trans  &trans  &trans  &trans  &trans         &kp F5        &trans    &to 0          &kp RALT
             >;
         };
     };
