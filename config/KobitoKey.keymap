@@ -95,8 +95,8 @@
         layer3 {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &mo 4
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &msc MOVE_Y(20)  &mkp MB2  &mo 4
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &msc MOVE_Y(-20)  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0
             >;
@@ -105,10 +105,10 @@
         layer4 {
             label = "MANUAL_MOUSE";
             bindings = <
-&trans     &trans    &kp UP_ARROW      &trans     &trans  &kp RS(RC(T))  &mkp MB1         &msc MOVE_Y(20)   &mkp MB2           &trans
-&trans     &kp LEFT  &kp DOWN_ARROW    &kp RIGHT  &trans  &kp RC(W)      &kp RC(PAGE_UP)  &msc MOVE_Y(-20)  &kp RC(PAGE_DOWN)  &trans
-&trans     &trans    &trans            &trans     &trans  &trans         &kp RA(LEFT)     &mkp MB3          &kp RA(RIGHT)      &trans
-&trans     &trans    &trans            &trans     &trans  &trans         &lt 0 F5         &trans            &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &kp RS(RC(T))  &kp RC(PAGE_UP)  &mkp MB3  &kp RC(PAGE_DOWN)  &trans
+&trans  &trans  &trans  &trans  &trans  &kp RC(W)      &kp RA(LEFT)     &kp F5    &kp RA(RIGHT)      &trans
+&trans  &trans  &trans  &trans  &trans  &trans         &trans           &trans    &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans         &trans           &trans    &trans             &trans
             >;
         };
     };
