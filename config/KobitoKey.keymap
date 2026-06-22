@@ -104,8 +104,8 @@
         layer4 {
             label = "MOUSE_OPTION";
             bindings = <
-&trans     &trans    &kp UP_ARROW    &trans     &trans  &trans  &mkp RC(PG_UP)  &mkp RC(W)  &mkp RC(PG_DN)  &trans
-&kp LCTRL  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans  &kp RA(LEFT)    &RC(RS(T))  &kp RA(RIGHT)   &trans
+&trans     &trans    &kp UP_ARROW    &trans     &trans  &trans  &kp RC(PG_UP)  &kp RC(W)  &kp RC(PG_DN)  &trans
+&kp LCTRL  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans  &kp RA(LEFT)    &kp RC(RS(T))  &kp RA(RIGHT)   &trans
 &kp LSHFT  &trans    &trans          &trans     &trans  &trans  &trans          &trans      &trans          &trans
 &trans     &trans    &trans          &trans     &trans  &trans  &trans          &trans      &trans          &trans
             >;
