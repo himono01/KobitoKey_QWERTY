@@ -100,15 +100,5 @@
 &trans     &trans    &trans    &lt 4 SPACE  &trans  &trans  &lt 4 F5  &to 0    &trans    &trans
             >;
         };
-
-        layer4 {
-            label = "MOUSE_OPTION";
-            bindings = <
-&trans     &trans    &kp UP_ARROW    &trans     &trans  &trans  &kp RC(PG_UP)  &kp RC(W)  &kp RC(PG_DN)  &trans
-&kp LCTRL  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans  &kp RA(LEFT)    &kp RC(RS(T))  &kp RA(RIGHT)   &trans
-&kp LSHFT  &trans    &trans          &trans     &trans  &trans  &trans          &trans      &trans          &trans
-&trans     &trans    &trans          &trans     &trans  &trans  &trans          &trans      &trans          &trans
-            >;
-        };
     };
 };
