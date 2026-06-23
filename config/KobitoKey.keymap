@@ -65,10 +65,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W             &kp E         &kp R        &kp T      &kp Y          &kp U        &kp I         &kp O      &kp P
+&kp Q      &kp W             &kp E         &kp R        &kp T      &kp Y          &kp U        &kp I         &kp O      &lt 4 P
 &kp A      &kp S             &kp D         &kp F        &kp G      &kp H          &kp J        &kp K         &kp L      &mt RCTRL SEMICOLON
 &kp Z      &kp X             &kp C         &kp V        &kp B      &kp N          &kp M        &kp COMMA     &kp DOT    &mt RIGHT_SHIFT JP_LBRACKET
-&kp LSHFT  &kp LEFT_COMMAND  &kp LEFT_ALT  &lt 1 SPACE  &kp LCTRL  &kp BACKSPACE  &lt 1 ENTER  &kp DELETE  &kp SLASH  &kp JP_RBRACKET
+&kp LSHFT  &kp LEFT_COMMAND  &kp LEFT_ALT  &lt 1 SPACE  &kp LCTRL  &kp BACKSPACE  &lt 1 ENTER  &kp DELETE    &kp SLASH  &kp JP_RBRACKET
             >;
         };
 
@@ -96,7 +96,7 @@
             label = "AUTO_MOUSE";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &msc MOVE_Y(20)   &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(-20)  &trans    &lt 4 SEMICOLON
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(-20)  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans            &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans            &trans    &to 0
             >;
