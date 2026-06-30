@@ -44,18 +44,5 @@
 &tb_right_split {
     device = <&tb_right>;
 
-    input-processors = <&layer4_switch_right>;
-};
-
-/* レイヤー切替用 input-processor を右側にも定義しておく */
-/ {
-    layer4_switch_right: layer4_switch_right {
-        compatible = "zmk,input-processor-layer";
-        status = "okay";
-        #input-processor-cells = <0>;
-        layer = <4>;
-        on-processor = <&zip_xy_to_scroll_mapper>;
-        off-processor = <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>;
-        rotation-angle = <45>;
-    };
+    input-processors = <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>;
 };
