@@ -61,7 +61,7 @@
         rotation-angle = <24>;
     };
 
-    layer4_switch_left: layer4-switch-left {
+    layer4_switch_left: layer4_switch_left {
         compatible = "zmk,input-processor-layer";
         status = "okay";
         #input-processor-cells = <0>;
@@ -71,7 +71,7 @@
         rotation-angle = <(-45)>;
     };
 
-    layer4_switch_right: layer4-switch-right {
+    layer4_switch_right: layer4_switch_right {
         compatible = "zmk,input-processor-layer";
         status = "okay";
         #input-processor-cells = <0>;
@@ -90,7 +90,7 @@
             <&sensor_rotation_left>,
             <&zip_x_scaler 0 1>,
             <&zip_y_scaler 1 15>,
-            <&layer4-switch-left>;
+            <&layer4_switch_left>;
     };
 
 / {
