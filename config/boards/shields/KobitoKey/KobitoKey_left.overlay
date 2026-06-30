@@ -70,7 +70,9 @@
             <&sensor_rotation_left>,
             <&zip_x_scaler 0 1>,
             <&zip_y_scaler 1 15>,
-            <&layer4_switch_left>;
+            <&zip_xy_to_scroll_mapper>,
+            <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
+            <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>;
     };
 
 / {
